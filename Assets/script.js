@@ -33,9 +33,9 @@ function generatePassword() {
 } while (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128);
 
 var includeNumbers = confirm("Include numbers?");// include numbers
-var includeLowercase = confirm("Include lowercase alpha?");// include lowercase
-var includeUppercase = confirm("Include uppercase alpha?");// include uppercase
-var includeSymbols = confirm("Include symbols?");// include symbols
+var includeLowercase = confirm("Include lowercase letters?");// include lowercase
+var includeUppercase = confirm("Include uppercase letters?");// include uppercase
+var includeSymbols = confirm("Include symbols?");// include symbols/special chara
 
 // if none were selected and return to empty string ""
 if (!includeNumbers && !includeSymbols && !includeUppercase && !includeLowercase) {
@@ -60,7 +60,7 @@ if (includeSymbols) {
 
 var password = [];// empty array to store password characters
 
-for (var i = 0; i < passwordLength; i++) {
+for (var i = 0; i < passwordLength; i++) {// for loop for the specified passwordLength
   var randomIndex = Math.floor(Math.random() * randomChars.length);// generate random index
   var randomPass = randomChars[randomIndex];// get random chara from randomChars using index
   password.push(randomPass);// add random chara to password array
