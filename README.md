@@ -6,8 +6,9 @@ Modify starter code to create an application that enables employees to generate 
 
 ## Installation
 
+![Opera Snapshot_2023-09-10_230627_vin7ag3 github io](https://github.com/Vin7ag3/passgen/assets/48032663/de884f82-1cf2-439f-a522-50382d032aa6)
 Repository - https://github.com/Vin7ag3/passgen
-deployed page - 
+deployed page - https://vin7ag3.github.io/passgen/
 
 ## Usage
 
