@@ -21,7 +21,7 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
+// Add event listener to generate btn 
 generateBtn.addEventListener("click", writePassword);
 
 // Define function to generatePassword
